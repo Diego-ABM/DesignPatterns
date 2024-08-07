@@ -1,4 +1,4 @@
-﻿using Singleton;
+﻿using CreationalPatterns;
 
 namespace UserInterface
 {
@@ -6,9 +6,8 @@ namespace UserInterface
     {
         static void Main(string[] args)
         {
-
+            // Prueba el patron Singleton
             ProveSingleton();
-
         }
 
 
