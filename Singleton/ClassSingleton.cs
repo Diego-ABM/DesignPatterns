@@ -10,7 +10,8 @@
             Console.WriteLine("Se crea la instancia unica de la clase singleton.");
         }
 
-        public ClassSingleton GetInstance()
+        // Metodo static para que se puede crear la instancia de la clase
+        public static ClassSingleton GetInstance()
         {
             // Crea la instancia a la clase en caso de que no este creada
             if (_instance == null) _instance = new ClassSingleton();
