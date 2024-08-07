@@ -20,7 +20,7 @@
             return _instance;
         }
 
-        public void GetAcction(ClassSingleton instance)
+        public void GetAcction()
         {
             Console.WriteLine("Se esta ejecutando una acción de la clase singleton.");
         }
